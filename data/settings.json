@@ -17,7 +17,7 @@
         "gray": "#7a8478"
     },
 	"wallpaper": {
-		"url": "assets/stars-bg.png",
+		"url": "assets/mountain-bg.png",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
