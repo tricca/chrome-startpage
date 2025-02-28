@@ -1,11 +1,11 @@
 {
-	"username": "tricca",
-	"title": "Tricca Start Page",
-	"theme": {
+    "username": "tricca",
+    "title": "Tricca Start Page",
+    "theme": {
         "name": "Everforest Dark",
-        "backgroundColor": "#232a2e",
-        "windowColor": "#2d353b",
-        "textColor": "#d3c6aa",
+        "backgroundColor": "#181F32",
+        "windowColor": "#181F32",
+        "textColor": "#ffffff",
         "black": "#000000",
         "red": "#e67e80",
         "green": "#a7c080",
@@ -16,105 +16,147 @@
         "white": "#d3c6aa",
         "gray": "#7a8478"
     },
-	"wallpaper": {
-		"url": "assets/mountain-bg.png",
-		"easing": "ease-in-out",
-		"fadeIn": true,
-		"blur": false
-	},
-	"terminal": {
-		"fixedHeight": true,
-		"windowGlow": true,
-		"windowGlowColor": "#291f3325",
-		"textGlow": false,
-		"opacity": 0,
-		"blur": 16
-	},
-	"prompt": {
-		"ctrlC": true,
-		"placeholder": "command...",
-		"placeholderColor": "gray",
-		"userColor": "green",
-		"atColor": "gray",
-		"hostColor": "magenta",
-		"promptColor": "magenta",
-		"promptSymbol": "❯",
-		"caretColor": "green",
-		"selectionBg": "yellow",
-		"selectionFg": "black"
-	},
-	"fetch": {
-		"timeFormat": "HH:mm",
-		"dateFormat": "DD/MM/YYYY",
-		"titleColor": "yellow",
-		"image": "assets/default-icon.svg",
-		"data": [
-			"Time: {time}",
-			"Date: {date}",
-			"{seperator}",
-			"OS: {osName} {osVersion}",
-			"Theme: {theme}",
-			"{seperator}",
-			"Browser: {browser} {browserVersion}",
-			"Engine: {engineName}",
-			"{seperator}",
-			"{colors}"
-		]
-	},
-	"urlLaunch": {
-		"target": "_self",
-		"hoverColor": "magenta"
-	},
-	"search": {
-		"default": "https://google.com/search?q={}",
-		"target": "_self",
-		"shortcutRegex": "(!?[A-Za-z0-9]+) (.*)",
-		"shortcuts": [
-			{
-				"alias": "g",
-				"name": "Google Search",
-				"url": "https://google.com/search?q={}"
-			},
-			{
-				"alias": "gh",
-				"name": "Github Search",
-				"url": "https://github.com/search?q={}"
-			},
-			{
-				"alias": "s",
-				"name": "Stack Overflow Search",
-				"url": "https://stackoverflow.com/search?q={}"
-			},
-			{
-				"alias": "w",
-				"name": "Wikipedia Search",
-				"url": "https://en.wikipedia.org/wiki/{}"
-			}
-		]
-	},
-	"sections": {
-		"list": [
-			{
-				"title": "Apps",
-				"color": "green",
-				"align": "left",
-				"links": [
-					{
-						"name": "Netwalk 4 (DEV2)",
-						"url": "https://dev2.netwalk.app",
-						"icon": "mdi:web"
-					}
-				]
-			},
+    "wallpaper": {
+        "url": "assets/dark-dunes.jpg",
+        "easing": "ease-in-out",
+        "fadeIn": true,
+        "blur": false
+    },
+    "terminal": {
+        "fixedHeight": true,
+        "windowGlow": true,
+        "windowGlowColor": "#291f3325",
+        "textGlow": false,
+        "opacity": 0.75,
+        "blur": 0
+    },
+    "prompt": {
+        "ctrlC": true,
+        "placeholder": "command...",
+        "placeholderColor": "gray",
+        "userColor": "green",
+        "atColor": "green",
+        "hostColor": "magenta",
+        "promptColor": "magenta",
+        "promptSymbol": "❯",
+        "caretColor": "green",
+        "selectionBg": "yellow",
+        "selectionFg": "black"
+    },
+    "fetch": {
+        "timeFormat": "HH:mm",
+        "dateFormat": "DD/MM/YYYY",
+        "titleColor": "yellow",
+        "image": "assets/default-icon.svg",
+        "data": [
+            "Time: {time}",
+            "Date: {date}",
+            "{seperator}",
+            "OS: {osName} {osVersion}",
+            "Theme: {theme}",
+            "{seperator}",
+            "Browser: {browser} {browserVersion}",
+            "Engine: {engineName}",
+            "{seperator}",
+            "{colors}"
+        ]
+    },
+    "urlLaunch": {
+        "target": "_self",
+        "hoverColor": "green"
+    },
+    "search": {
+        "default": "https://google.com/search?q={}",
+        "target": "_self",
+        "shortcutRegex": "(!?[A-Za-z0-9]+) (.*)",
+        "shortcuts": [
             {
-                "title": "Docs",
-                "color": "blue",
+                "alias": "g",
+                "name": "Google Search",
+                "url": "https://google.com/search?q={}"
+            },
+            {
+                "alias": "gh",
+                "name": "Github Search",
+                "url": "https://github.com/search?q={}"
+            },
+            {
+                "alias": "s",
+                "name": "Stack Overflow Search",
+                "url": "https://stackoverflow.com/search?q={}"
+            },
+            {
+                "alias": "w",
+                "name": "Wikipedia Search",
+                "url": "https://en.wikipedia.org/wiki/{}"
+            }
+        ]
+    },
+    "sections": {
+        "list": [
+            {
+                "title": "Apps",
+                "color": "green",
                 "align": "left",
                 "links": [
                     {
-                          "name": "Ant Design",
-                          "url": "https://4x.ant.design/components/overview/",
-                          "icon": "mdi:ant-design"
+                        "name": "Netwalk 4 (DEV2)",
+                        "url": "https://dev2.netwalk.app",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "NW4 Admin (dev)",
+                        "url": "https://nw4-dev-admin.netwalk.app/",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "NW4 Admin (prod)",
+                        "url": "https://nw4-admin.netwalk.app/",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "Medtronic (prod)",
+                        "url": "https://medtronic-codev2.aprioriapp.com/",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "Medtronic (dev)",
+                        "url": "https://covidien-test.aprioriapp.com/",
+                        "icon": "mdi:web"
+                    }
+                ]
+            },
+            {
+                "title": "Swagger",
+                "color": "green",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Netwalk 4 (DEV2)",
+                        "url": "https://dev2.netwalk.app/swagger",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "Netwalk 4 Packages (DEV2)",
+                        "url": "https://dev2-packages.netwalk.app/swagger/index.html",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "Netwalk 4 Websites",
+                        "url": "https://nw4-dev-websiteapi.netwalk.app/swagger/index.html",
+                        "icon": "mdi:web"
+                    }
+                ]
+            },
+            {
+                "title": "Docs",
+                "color": "green",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Ant Design",
+                        "url": "https://4x.ant.design/components/overview/",
+                        "icon": "mdi:rhombus-outline"
                     },
                     {
                         "name": "FontAwesome",
@@ -124,18 +166,18 @@
                     {
                         "name": "Tanstack Query",
                         "url": "https://tanstack.com/query/latest/docs/framework/react/overview",
-                        "icon": "mdi:tanstack"
+                        "icon": "mdi:database"
                     },
                     {
                         "name": "Mozilla Developer Network",
                         "url": "https://developer.mozilla.org/en-US/",
-                        "icon": "mdi:mozilla"
+                        "icon": "simple-icons:mozilla"
                     }
                 ]
             },
             {
                 "title": "Office",
-                "color": "yellow",
+                "color": "green",
                 "align": "left",
                 "links": [
                     {
@@ -151,75 +193,52 @@
                     {
                         "name": "Zendesk",
                         "url": "https://gapmultimedia.zendesk.com/agent/dashboard",
-                        "icon": "mdi:zendesk"
+                        "icon": "mdi:chat-help"
                     },
                     {
                         "name": "Rackspace",
                         "url": "https://my.rackspace.com/portal/home",
-                        "icon": "mdi:rackspace"
+                        "icon": "logos:rackspace-icon"
                     },
                     {
                         "name": "Gmail",
                         "url": "https://mail.google.com/mail/u/0/#inbox",
                         "icon": "mdi:gmail"
+                    },
+                    {
+                        "name": "PEC Aruba",
+                        "url": "https://webmail.pec.it/",
+                        "icon": "mdi:email-lock-outline"
+                    },
+                    {
+                        "name": "ChatGPT",
+                        "url": "https://chatgpt.com/",
+                        "icon": "mdi:chat-help"
                     }
                 ]
             },
-
-			{
-				"title": "Dev",
-				"color": "magenta",
-				"align": "left",
-				"links": [
-					{
-						"name": "GitHub",
-						"url": "https://github.com",
-						"icon": "mdi:github"
-					},
-					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
-					},
-					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
-					},
-					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
-					}
-				]
-			},
-			{
-				"title": "Tech",
-				"color": "yellow",
-				"align": "left",
-				"links": [
-					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
-					},
-					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
-					},
-					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
-					}
-				]
-			}
-		]
-	}
+            {
+                "title": "Readings",
+                "color": "green",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Il Post",
+                        "url": "https://www.ilpost.it/",
+                        "icon": "heroicons:newspaper"
+                    },
+                    {
+                        "name": "WireCutter (NYT)",
+                        "url": "https://www.nytimes.com/wirecutter",
+                        "icon": "simple-icons:newyorktimes"
+                    },
+                    {
+                        "name": "Il Corriere della Sera",
+                        "url": "https://www.corriere.it/",
+                        "icon": "heroicons:newspaper"
+                    }
+                ]
+            }
+        ]
+    }
 }
