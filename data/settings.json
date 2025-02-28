@@ -106,6 +106,66 @@
 					}
 				]
 			},
+            {
+                "title": "Docs",
+                "color": "blue",
+                "align": "left",
+                "links": [
+                    {
+                          "name": "Ant Design",
+                          "url": "https://4x.ant.design/components/overview/",
+                          "icon": "mdi:ant-design"
+                    },
+                    {
+                        "name": "FontAwesome",
+                        "url": "https://fontawesome.com/icons",
+                        "icon": "mdi:font-awesome"
+                    },
+                    {
+                        "name": "Tanstack Query",
+                        "url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+                        "icon": "mdi:tanstack"
+                    },
+                    {
+                        "name": "Mozilla Developer Network",
+                        "url": "https://developer.mozilla.org/en-US/",
+                        "icon": "mdi:mozilla"
+                    }
+                ]
+            },
+            {
+                "title": "Office",
+                "color": "yellow",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Bitbucket",
+                        "url": "https://bitbucket.org",
+                        "icon": "mdi:bitbucket"
+                    },
+                    {
+                        "name": "Trello",
+                        "url": "https://trello.com/b/BTP3Rlyv/produzione",
+                        "icon": "mdi:trello"
+                    },
+                    {
+                        "name": "Zendesk",
+                        "url": "https://gapmultimedia.zendesk.com/agent/dashboard",
+                        "icon": "mdi:zendesk"
+                    },
+                    {
+                        "name": "Rackspace",
+                        "url": "https://my.rackspace.com/portal/home",
+                        "icon": "mdi:rackspace"
+                    },
+                    {
+                        "name": "Gmail",
+                        "url": "https://mail.google.com/mail/u/0/#inbox",
+                        "icon": "mdi:gmail"
+                    }
+                ]
+            },
+
 			{
 				"title": "Dev",
 				"color": "magenta",
@@ -130,33 +190,6 @@
 						"name": "Stack Overflow",
 						"url": "https://stackoverflow.com/",
 						"icon": "mdi:stack-overflow"
-					}
-				]
-			},
-			{
-				"title": "Science",
-				"color": "blue",
-				"align": "left",
-				"links": [
-					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
-						"icon": "material-symbols:science"
-					},
-					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
-					},
-					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
 					}
 				]
 			},
