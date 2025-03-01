@@ -121,32 +121,37 @@ const Search = ({ commandChange, selectionChange }) => {
 	}, [filteredItems])
 
 	return (
-		<div id="search" className="flex">
-			<Prompt />
-			<div id="search-container" className="flex grow ml-2.5">
-				<input
-					className={`z-10 w-full bg-transparent text-textColor outline-none appearance-none shadow-none caret-${settings.prompt.caretColor}`}
-					type="text"
-					placeholder={settings.prompt.placeholder}
-					ref={inputRef}
-					autoFocus
-					onChange={(e) => {
-						setCommand(e.target.value.toLowerCase())
-					}}
-					onFocus={() => {
-						setInputFocus(true)
-					}}
-					onBlur={() => {
-						setInputFocus(false)
-					}}
-				/>
-				<input
-					className={`-z-10 opacity-50 w-full -ml-full bg-transparent text-textColor outline-none appearance-none shadow-none caret-${settings.prompt.caretColor}`}
-					type="text"
-					disabled
-					placeholder={suggestion}
-					ref={suggestionRef}
-				/>
+		<div className="search-wrapper">
+			<div id="search" className="flex">
+				<Prompt />
+				<div id="search-container" className="flex grow ml-2.5">
+					<input
+						className={`z-10 w-full bg-transparent text-textColor outline-none appearance-none shadow-none caret-${settings.prompt.caretColor}`}
+						type="text"
+						placeholder={settings.prompt.placeholder}
+						ref={inputRef}
+						autoFocus
+						onChange={(e) => {
+							setCommand(e.target.value.toLowerCase())
+						}}
+						onFocus={() => {
+							setInputFocus(true)
+						}}
+						onBlur={() => {
+							setInputFocus(false)
+						}}
+					/>
+					<input
+						className={`-z-10 opacity-50 w-full -ml-full bg-transparent text-textColor outline-none appearance-none shadow-none caret-${settings.prompt.caretColor}`}
+						type="text"
+						disabled
+						placeholder={suggestion}
+						ref={suggestionRef}
+					/>
+				</div>
+			</div>
+			<div className="text-xs text-white">
+				"w" for Wikipedia, "gh" for Github, "s" for StackOverflow
 			</div>
 		</div>
 	)
