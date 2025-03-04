@@ -238,6 +238,53 @@
                         "icon": "heroicons:newspaper"
                     }
                 ]
+            },
+            {
+                "title": "NW4 Tenants",
+                "color": "green",
+                "align": "left",
+                "links": [
+                    {
+                        "name": "Fifth Avenue",
+                        "url": "https://5thavenue.netwalk.app/",
+                        "icon": "mdi:alien-outline"
+                    },
+                    {
+                        "name": "Elite Models",
+                        "url": "https://elitemodels.netwalk.app/",
+                        "icon": "mdi:alien-outline"
+                    },
+                    {
+                        "name": "Pwr Management",
+                        "url": "https://pwr.netwalk.app/",
+                        "icon": "mdi:alien-outline"
+                    },
+                    {
+                        "name": "Boom",
+                        "url": "https://boom.netwalk.app/",
+                        "icon": "mdi:alien-outline"
+                    },
+                    {
+                        "name": "Crawford",
+                        "url": "https://crawford.netwalk.app/",
+                        "icon": "mdi:alien-outline"
+                    },
+                    {
+                        "name": "APM",
+                        "url": "https://apm.netwalk.app/",
+                        "icon": "mdi:alien-outline"
+                    },
+                    {
+                        "name": "SP Models",
+                        "url": "https://spmodels.netwalk.app/",
+                        "icon": "mdi:alien-outline"
+                    },
+                    {
+                        "name": "Francina",
+                        "url": "https://francina.netwalk.app/",
+                        "icon": "mdi:alien-outline"
+                    }
+                ]
             }
         ]
     }
