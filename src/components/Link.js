@@ -17,7 +17,7 @@ const Link = ({ linkData, filter, selection }) => {
 		const lower_command = filter.toLowerCase()
 
 		if (lower_command) {
-			const isFiltered = lower_name.startsWith(lower_command)
+			const isFiltered = lower_name.includes(lower_command)
 			setHidden(!isFiltered)
 		} else {
 			setHidden(false)
