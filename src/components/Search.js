@@ -101,7 +101,7 @@ const Search = ({ commandChange, selectionChange }) => {
 		if (command === "") {
 			selectionChange("")
 		} else {
-			const filtered = items.filter((item) => item.startsWith(command))
+			const filtered = items.filter((item) => item.includes(command))
 			setFilteredItems(filtered)
 		}
 		// eslint-disable-next-line
