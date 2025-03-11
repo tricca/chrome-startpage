@@ -214,16 +214,11 @@
                         "name": "PEC Aruba",
                         "url": "https://webmail.pec.it/",
                         "icon": "mdi:email-lock-outline"
-                    },
-                    {
-                        "name": "ChatGPT",
-                        "url": "https://chatgpt.com/",
-                        "icon": "mdi:chat-help"
                     }
                 ]
             },
             {
-                "title": "Readings",
+                "title": "Readings & Utilities",
                 "color": "green",
                 "align": "left",
                 "links": [
@@ -241,6 +236,16 @@
                         "name": "Il Corriere della Sera",
                         "url": "https://www.corriere.it/",
                         "icon": "heroicons:newspaper"
+                    },
+                    {
+                        "name": "Google Maps",
+                        "url": "https://www.google.com/maps",
+                        "icon": "mdi:map-marker-outline"
+                    },
+                    {
+                        "name": "ChatGPT",
+                        "url": "https://chatgpt.com/",
+                        "icon": "mdi:chat-help"
                     }
                 ]
             },
