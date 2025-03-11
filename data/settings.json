@@ -89,6 +89,11 @@
                 "alias": "w",
                 "name": "Wikipedia Search",
                 "url": "https://en.wikipedia.org/wiki/{}"
+            },
+            {
+                "alias": "gm",
+                "name": "Google Maps",
+                "url": "https://maps.google.com/maps?q={}"
             }
         ]
     },
