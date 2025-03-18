@@ -161,12 +161,12 @@
                     {
                         "name": "Ant Design",
                         "url": "https://4x.ant.design/components/overview/",
-                        "icon": "mdi:rhombus-outline"
+                        "icon": "devicon:antdesign"
                     },
                     {
                         "name": "FontAwesome",
                         "url": "https://fontawesome.com/icons",
-                        "icon": "mdi:font-awesome"
+                        "icon": "logos:font-awesome"
                     },
                     {
                         "name": "Tanstack Query",
@@ -198,7 +198,7 @@
                     {
                         "name": "Zendesk",
                         "url": "https://gapmultimedia.zendesk.com/agent/dashboard",
-                        "icon": "logos:zendesk"
+                        "icon": "logos:zendesk-icon"
                     },
                     {
                         "name": "DropBox",
@@ -213,7 +213,7 @@
                     {
                         "name": "Gmail",
                         "url": "https://mail.google.com/mail/u/0/#inbox",
-                        "icon": "logos:gmail"
+                        "icon": "logos:google-gmail"
                     },
                     {
                         "name": "PEC Aruba",
@@ -245,12 +245,12 @@
                     {
                         "name": "Google Maps",
                         "url": "https://www.google.com/maps",
-                        "icon": "mdi:map-marker-outline"
+                        "icon": "logos:google-maps"
                     },
                     {
                         "name": "ChatGPT",
                         "url": "https://chatgpt.com/",
-                        "icon": "mdi:chat-help"
+                        "icon": "logos:openai-icon"
                     }
                 ]
             },
