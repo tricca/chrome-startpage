@@ -188,22 +188,22 @@
                     {
                         "name": "Bitbucket",
                         "url": "https://bitbucket.org",
-                        "icon": "mdi:bitbucket"
+                        "icon": "logos:bitbucket"
                     },
                     {
                         "name": "Trello",
                         "url": "https://trello.com/b/BTP3Rlyv/produzione",
-                        "icon": "mdi:trello"
+                        "icon": "logos:trello"
                     },
                     {
                         "name": "Zendesk",
                         "url": "https://gapmultimedia.zendesk.com/agent/dashboard",
-                        "icon": "mdi:chat-help"
+                        "icon": "logos:zendesk"
                     },
                     {
                         "name": "DropBox",
                         "url": "https://www.dropbox.com/home",
-                        "icon": "mdi:dropbox"
+                        "icon": "logos:dropbox"
                     },
                     {
                         "name": "Rackspace",
@@ -213,7 +213,7 @@
                     {
                         "name": "Gmail",
                         "url": "https://mail.google.com/mail/u/0/#inbox",
-                        "icon": "mdi:gmail"
+                        "icon": "logos:gmail"
                     },
                     {
                         "name": "PEC Aruba",
