@@ -17,7 +17,7 @@
         "gray": "#7a8478"
     },
     "wallpaper": {
-        "url": "assets/dark-dunes.jpg",
+        "url": "assets/green.jpg",
         "easing": "ease-in-out",
         "fadeIn": true,
         "blur": false
@@ -199,6 +199,11 @@
                         "name": "Zendesk",
                         "url": "https://gapmultimedia.zendesk.com/agent/dashboard",
                         "icon": "mdi:chat-help"
+                    },
+                    {
+                        "name": "DropBox",
+                        "url": "https://www.dropbox.com/home",
+                        "icon": "mdi:dropbox"
                     },
                     {
                         "name": "Rackspace",
