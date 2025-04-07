@@ -151,7 +151,8 @@ const Search = ({ commandChange, selectionChange }) => {
 				</div>
 			</div>
 			<div className="text-xs text-white">
-				"w" for Wikipedia, "gh" for Github, "s" for StackOverflow, "gm" for Google Maps
+				"w" for Wikipedia, "s" for StackOverflow, "m" for Google Maps, "d" for Cambridge
+				Dictionary
 			</div>
 		</div>
 	)
