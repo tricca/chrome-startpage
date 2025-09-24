@@ -105,7 +105,7 @@
                 "align": "left",
                 "links": [
                     {
-                        "name": "Netwalk 4 (DEV2)",
+                        "name": "Netwalk 4 (DEV2 on Server)",
                         "url": "https://dev2.netwalk.app",
                         "icon": "mdi:web"
                     },
@@ -132,29 +132,39 @@
                 ]
             },
             {
-                "title": "Swagger",
+                "title": "Local & Swagger",
                 "color": "green",
                 "align": "left",
                 "links": [
                     {
-                        "name": "Netwalk 4 (DEV2)",
+                        "name": "Local NW4",
+                        "url": "http://localhost:3000",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "Local NW4 - Mobile",
+                        "url": "http://localhost:3000/mobile-home",
+                        "icon": "mdi:web"
+                    },
+                    {
+                        "name": "Swagger NW4 DEV2",
                         "url": "https://dev2.netwalk.app/swagger",
                         "icon": "mdi:web"
                     },
                     {
-                        "name": "Netwalk 4 Packages (DEV2)",
+                        "name": "Swagger NW4 Packages (DEV2)",
                         "url": "https://dev2-packages.netwalk.app/swagger/index.html",
                         "icon": "mdi:web"
                     },
                     {
-                        "name": "Netwalk 4 Websites",
+                        "name": "Swagger NW4 Websites",
                         "url": "https://nw4-dev-websiteapi.netwalk.app/swagger/index.html",
                         "icon": "mdi:web"
                     }
                 ]
             },
             {
-                "title": "Docs",
+                "title": "Docs & Tools",
                 "color": "green",
                 "align": "left",
                 "links": [
@@ -177,6 +187,11 @@
                         "name": "Mozilla Developer Network",
                         "url": "https://developer.mozilla.org/en-US/",
                         "icon": "simple-icons:mozilla"
+                    },
+                    {
+                        "name": "CyberChef",
+                        "url": "https://gchq.github.io/CyberChef/",
+                        "icon": "mdi:chef-hat"
                     }
                 ]
             },
@@ -243,6 +258,11 @@
                         "icon": "heroicons:newspaper"
                     },
                     {
+                        "name": "HomeCoach",
+                        "url": "https://home.netatmo.com/control/dashboard",
+                        "icon": "logos:netatmo-icon"
+                    },
+                    {
                         "name": "Google Maps",
                         "url": "https://www.google.com/maps",
                         "icon": "logos:google-maps"
@@ -251,6 +271,11 @@
                         "name": "ChatGPT",
                         "url": "https://chatgpt.com/",
                         "icon": "logos:openai-icon"
+                    },
+                    {
+                        "name": "Claude",
+                        "url": "https://claude.ai/new",
+                        "icon": "logos:anthropic-icon"
                     }
                 ]
             },

@@ -38,7 +38,7 @@ module.exports = {
 		},
 		extend: {
 			maxWidth: {
-				terminal: "60rem"
+				terminal: "70rem"
 			},
 			padding: {
 				terminal: "0.9rem"
